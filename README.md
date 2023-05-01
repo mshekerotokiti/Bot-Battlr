@@ -1,5 +1,6 @@
 # Bot Battlr
 
+Visit this link to view the project [https://mshekerotokiti.github.io/bot-battlr/](https://mshekerotokiti.github.io/bot-battlr/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Project Requirements
@@ -41,9 +42,9 @@ Added a delete method to make sure once the delete button is clicked it deletes 
 
 # Author
 
-GITHUB: [https://github.com/mshekerotokiti](SharonTokiti)
+GITHUB: [Sharon Tokiti](https://github.com/mshekerotokiti)
 
-TWITTER: [https://twitter.com/sharontokiti](@SharonTokiti)
+TWITTER: [@sharonTokiti](https://twitter.com/sharontokiti)
 
 # License
 
