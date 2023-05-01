@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Bot Battlr
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+# Project Requirements
 
-In the project directory, you can run:
+For this project, I’ll be building out a React application a user  can custom build their own Bot Army!
 
-### `npm start`
+As a user, I should be able to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+See profiles of all bots rendered in `BotCollection`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Add an individual bot to my army by clicking on it. The selected bot should render in the  `YourBotArmy` component. The bot can be enlisted only once. The bot does not disappear from the `BotCollection`.
 
-### `npm test`
+Release a bot from my army by clicking on it. The bot disappears from the `YourBotArmy` component.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Discharge a bot from their service forever, by clicking the red button marked "x", which would delete the bot both from the backend and from the `YourBotArmy` on the frontend.
 
-### `npm run build`
+# Project Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Run `json-server --watch db.json -p 8001` to get the backend started.
+Test the server by visiting this route in the browser [http://localhost:8001/bots](http://localhost:8001/bots)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Open another tab in the  terminal and start the react application by running `npm start`
+The page will reload when you make changes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Project Explanation
 
-### `npm run eject`
+The step by step thought process has been commented in the respective components
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The Component Hierarchy is; 
+App ├──BotsPage ├── BotCollection ├── BotCard └── YourBotArmy ├── BotCard
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Displayed the data to the BotCard component by passing props through: BotsPage => BotCollection => BotCard Mapped the data to the component using .map() method completing the first deliverable
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Added a bot to the YourBot Army component by creating a click function that spreads the selected bot by id and renders it to the DOM completing the second deliverable
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Added an if statement to ensure that once the bot is clicked from the YourBitArmy component it is released back to the BotCard component completing the third deliverable
 
-## Learn More
+Added a delete metod to make sure once the delete button is clicked it deletes the bot from the DOM and server completing the last deliverable
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+GITHUB: [https://github.com/mshekerotokiti](Sharon Tokiti)
+TWITTER: [https://twitter.com/sharontokiti](@SharonTokiti)
 
-### Code Splitting
+# License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+THis project is MIT licensed
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
