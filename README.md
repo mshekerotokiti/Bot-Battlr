@@ -35,9 +35,9 @@ Displayed the data to the BotCard component by passing props through: BotsPage =
 
 Added a bot to the YourBot Army component by creating a click function that spreads the selected bot by id and renders it to the DOM completing the second deliverable
 
-Added an if statement to ensure that once the bot is clicked from the YourBitArmy component it is released back to the BotCard component completing the third deliverable
+Added an if statement to ensure that once the bot is clicked from the YourBotArmy component it is released back to the BotCard component completing the third deliverable
 
-Added a delete metod to make sure once the delete button is clicked it deletes the bot from the DOM and server completing the last deliverable
+Added a delete method to make sure once the delete button is clicked it deletes the bot from the DOM and server completing the last deliverable
 
 # Author
 
@@ -47,5 +47,6 @@ TWITTER: [https://twitter.com/sharontokiti](@SharonTokiti)
 
 # License
 
-THis project is MIT licensed
+This project is MIT licensed
+Copyright (c) 2023 mshekero_tokiti
 
