@@ -41,7 +41,8 @@ Added a delete metod to make sure once the delete button is clicked it deletes t
 
 # Author
 
-GITHUB: [https://github.com/mshekerotokiti](Sharon Tokiti)
+GITHUB: [https://github.com/mshekerotokiti](SharonTokiti)
+
 TWITTER: [https://twitter.com/sharontokiti](@SharonTokiti)
 
 # License
