@@ -1,6 +1,5 @@
 # Bot Battlr
 
-Visit this link to view the project [https://mshekerotokiti.github.io/bot-battlr/](https://mshekerotokiti.github.io/bot-battlr/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Project Requirements
