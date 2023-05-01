@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 For this project, I’ll be building out a React application a user  can custom build their own Bot Army!
 
-![Bots screenshot](public/Screenshot%20from%202023-05-01%2016-37-39.png)
+![Bots screenshot](public/bots.png)
 
 As a user, I should be able to:
 
